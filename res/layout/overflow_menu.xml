@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/root" android:background="#ff000000" android:paddingLeft="@dimen/tool_palette_gutter" android:paddingBottom="@dimen/tool_palette_gutter" android:layout_width="-1" android:layout_height="-1">
+    <Button android:id="@id/share" android:src="@drawable/share" android:text="Share" android:onClick="clickShare" android:contentDescription="share drawing" style="@style/ActionBar_MenuItem" />
+    <Button android:id="@id/help" android:text="Help" android:onClick="clickHelp" android:contentDescription="help" style="@style/ActionBar_MenuItem" />
+    <Button android:id="@id/cleaner" android:text="Cleaner" android:onClick="clickCleaner" android:contentDescription="help" style="@style/ActionBar_MenuItem" />
+    <Button android:id="@id/load" android:visibility="2" android:src="@drawable/load" android:text="Load" android:onClick="clickLoad" android:contentDescription="load image" style="@style/ActionBar_MenuItem" />
+    <Button android:id="@id/debug" android:visibility="2" android:src="@drawable/doodlebug" android:text="Debug" android:onClick="clickDebug" android:contentDescription="debug mode" style="@style/ActionBar_MenuItem" />
+    <Button android:id="@id/about" android:visibility="2" android:text="About" android:onClick="clickAbout" android:contentDescription="about markers" style="@style/ActionBar_MenuItem" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout markers:orientation="1" markers:id="@id/colors" markers:paddingRight="@dimen/tool_palette_gutter" markers:layout_width="-1" markers:layout_height="-1" style="@style/ActionBar_Bar"
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff000000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffffffff" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#00000000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff404040" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff808080" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffc0c0c0" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff800000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffff0000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffff8080" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff008000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff00ff00" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff80ff80" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff000080" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff0000ff" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff8080ff" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff808000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffffff00" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffffff80" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff804000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffff8000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffffcc80" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff800040" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffff0080" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffff80cc" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff400080" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff8000ff" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffcc80ff" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout markers:orientation="0" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0">
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff402000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ff804000" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+        <view markers:padding="3dp" markers:layout_width="-1" markers:layout_height="-1" markers:layout_weight="1.0" markers:color="#ffccaa80" class="com.hanista.mobogram.mobo.markers.ToolButton$SwatchButton" />
+    </LinearLayout>
+</LinearLayout>

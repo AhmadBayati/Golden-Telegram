@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="16dp" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/logo" android:layout_width="200dp" android:layout_height="200dp" android:src="@drawable/large_launcher_icon" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="30sp" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="16dp" android:text="Markers" android:layout_below="@id/logo" android:layout_centerHorizontal="true" />
+    <WebView android:id="@id/html" android:background="@videoplayer/TRACK_DEFAULT" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+</RelativeLayout>

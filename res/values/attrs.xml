@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="MaterialTapTargetPromptTheme" format="reference" />
+    <attr name="autoDismiss" format="boolean" />
+    <attr name="autoFinish" format="boolean" />
+    <attr name="backgroundColour" format="color" />
+    <attr name="captureTouchEventOnFocal" format="boolean" />
+    <attr name="captureTouchEventOutsidePrompt" format="boolean" />
+    <attr name="focalColour" format="color" />
+    <attr name="focalRadius" format="dimension" />
+    <attr name="focalToTextPadding" format="dimension" />
+    <attr name="iconColourFilter" format="color" />
+    <attr name="iconTint" format="reference" />
+    <attr name="iconTintMode">
+        <enum name="ADD" value="16" />
+        <enum name="MULTIPLY" value="14" />
+        <enum name="SCREEN" value="15" />
+        <enum name="SRC_ATOP" value="9" />
+        <enum name="SRC_IN" value="5" />
+        <enum name="SRC_OVER" value="3" />
+    </attr>
+    <attr name="maxTextWidth" format="dimension" />
+    <attr name="primaryText" format="string" />
+    <attr name="primaryTextColour" format="color" />
+    <attr name="primaryTextFontFamily" format="string" />
+    <attr name="primaryTextSize" format="dimension" />
+    <attr name="primaryTextStyle">
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="primaryTextTypeface">
+        <enum name="normal" value="0" />
+        <enum name="monospace" value="3" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+    </attr>
+    <attr name="secondaryText" format="string" />
+    <attr name="secondaryTextColour" format="color" />
+    <attr name="secondaryTextFontFamily" format="string" />
+    <attr name="secondaryTextSize" format="dimension" />
+    <attr name="secondaryTextStyle">
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="secondaryTextTypeface">
+        <enum name="normal" value="0" />
+        <enum name="monospace" value="3" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+    </attr>
+    <attr name="target" format="reference" />
+    <attr name="textPadding" format="dimension" />
+    <attr name="textSeparation" format="dimension" />
+    <attr name="imageAspectRatioAdjust">
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="mapType">
+        <enum name="normal" value="1" />
+        <enum name="none" value="0" />
+        <enum name="hybrid" value="4" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="liteMode" format="boolean" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+    <attr name="uiMapToolbar" format="boolean" />
+    <attr name="ambientEnabled" format="boolean" />
+    <attr name="cameraMinZoomPreference" format="float" />
+    <attr name="cameraMaxZoomPreference" format="float" />
+    <attr name="latLngBoundsSouthWestLatitude" format="float" />
+    <attr name="latLngBoundsSouthWestLongitude" format="float" />
+    <attr name="latLngBoundsNorthEastLatitude" format="float" />
+    <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="maxVScale" format="float" />
+    <attr name="maxHScale" format="float" />
+    <attr name="rows" format="integer" />
+    <attr name="cols" format="integer" />
+    <attr name="squareChildren" format="boolean" />
+    <attr name="maxSize" format="dimension" />
+    <attr name="defaultCircleColor" format="reference" />
+    <attr name="gridSize" format="integer" />
+    <attr name="strokeWidthMax" format="dimension" />
+    <attr name="strokeWidthMin" format="dimension" />
+    <attr name="interpolator" format="reference" />
+    <attr name="penType">
+        <enum name="airbrush" value="2" />
+        <enum name="feltTip" value="1" />
+        <enum name="fountainpen" value="3" />
+        <enum name="whiteboard" value="0" />
+    </attr>
+    <attr name="proTitle" format="string" />
+    <attr name="proDescription" format="string" />
+    <attr name="proTitleColor" format="color" />
+    <attr name="proDescriptionColor" format="color" />
+    <attr name="isPro" format="boolean" />
+    <attr name="buttonSize" format="reference">
+        <enum name="icon_only" value="2" />
+        <enum name="standard" value="0" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="colorScheme" format="reference">
+        <enum name="auto" value="2" />
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+    </attr>
+    <attr name="scopeUris" format="reference|string" />
+    <attr name="color" format="color" />
+</resources>

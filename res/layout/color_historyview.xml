@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <HorizontalScrollView android:id="@id/colorlistscroll" android:scrollbars="0" android:layout_width="-2" android:layout_height="50dp">
+        <LinearLayout android:orientation="0" android:id="@id/colorlist" android:layout_width="-1" android:layout_height="-2" />
+    </HorizontalScrollView>
+    <TextView android:gravity="11" android:id="@id/nocolors" android:visibility="2" android:layout_width="-1" android:layout_height="50dp" android:text="No recent colors" />
+</LinearLayout>

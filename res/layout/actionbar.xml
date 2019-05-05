@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/actionbar" android:layout_width="-1" android:layout_height="@dimen/action_bar_height"
+    <RelativeLayout android:id="@id/actionbar_contents" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:soundEffectsEnabled="false" style="@style/ActionBar_Bar">
+        <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="10" android:id="@id/logotype" android:paddingLeft="2dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="@dimen/action_bar_logo_width" android:text="@string/AppName" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ActionBar_Text" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true">
+            <ImageButton android:id="@id/debug" android:visibility="2" android:src="@drawable/doodlebug" android:onClick="clickDebug" android:contentDescription="debug mode" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/undo" android:src="@drawable/undo" android:onClick="clickUndo" android:contentDescription="undo" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/load" android:visibility="2" android:src="@drawable/load" android:onClick="clickLoad" android:contentDescription="load image" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/clear" android:src="@drawable/scribble" android:onClick="clickClear" android:contentDescription="erase drawing" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/save" android:src="@drawable/check" android:onClick="clickSave" android:contentDescription="save drawing" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/share" android:visibility="2" android:src="@drawable/share" android:onClick="clickShare" android:contentDescription="share drawing" style="@style/ActionBar_Icon" />
+            <ImageButton android:id="@id/overflow" android:src="@drawable/overflow" android:onClick="clickOverflow" android:contentDescription="more actions" style="@style/ActionBar_Icon" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+    <bool name="useHardwareAcceleration">true</bool>
+    <bool name="pref_def_delay_status">false</bool>
+    <bool name="pref_def_dial_launch">false</bool>
+    <bool name="pref_def_hide_launcher_icon">false</bool>
+    <bool name="pref_def_hide_notification_icon">false</bool>
+    <bool name="pref_def_pattern_error_stealth">false</bool>
+    <bool name="pref_def_pattern_stealth">false</bool>
+    <bool name="pref_def_relock_after_screenoff">true</bool>
+    <bool name="pref_def_show_notification">false</bool>
+    <bool name="pref_def_start_boot">true</bool>
+    <bool name="pref_def_switch_buttons">false</bool>
+    <bool name="pref_def_vibrate">false</bool>
+</resources>

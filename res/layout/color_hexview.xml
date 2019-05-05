@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="31" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:paddingTop="80px" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10px" android:text="HEX" />
+        <EditText android:id="@id/color_hex_edit" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="10px" android:minWidth="150px" android:singleLine="true" android:maxLength="10" />
+    </LinearLayout>
+    <Button android:id="@id/color_hex_btnSave" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="OK" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="#ffff0000" android:id="@id/color_hex_txtError" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10px" android:text="@string/colorHexInvalid" />
+    </LinearLayout>
+</LinearLayout>

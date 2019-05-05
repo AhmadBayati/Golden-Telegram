@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="50" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="2dp">
+    <TextView android:textSize="12dp" android:gravity="50" android:id="@id/colorbox" android:layout_width="50dp" android:layout_height="50dp" />
+</LinearLayout>

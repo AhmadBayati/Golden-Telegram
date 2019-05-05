@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">56.0dip</dimen>
+    <dimen name="action_bar_logo_width">64.0dip</dimen>
+    <dimen name="action_button_padding_v">10.0dip</dimen>
+    <dimen name="action_button_width">52.0dip</dimen>
+    <dimen name="title_size">32.0sp</dimen>
+    <item type="dimen" name="tools_margin_top">@dimen/action_bar_height</item>
+    <dimen name="ui_font_size">20.0sp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:id="@id/tabsLayout" android:background="@drawable/tab_bg_selector" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="15dp" android:textColor="@drawable/tab_text_selector" android:id="@id/tabsText" android:layout_width="-2" android:layout_height="-2" android:text="Title" />
+</LinearLayout>

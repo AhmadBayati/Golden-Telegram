@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="layout_alias_locker">@layout/activity_locker_twopanes</item>
+</resources>

@@ -1,0 +1,30 @@
+package com.hanista.mobogram.ui.Adapters;
+
+import android.database.DataSetObserver;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+
+public class BaseFragmentAdapter extends BaseAdapter {
+    public int getCount() {
+        return 0;
+    }
+
+    public Object getItem(int i) {
+        return null;
+    }
+
+    public long getItemId(int i) {
+        return 0;
+    }
+
+    public View getView(int i, View view, ViewGroup viewGroup) {
+        return null;
+    }
+
+    public void unregisterDataSetObserver(DataSetObserver dataSetObserver) {
+        if (dataSetObserver != null) {
+            super.unregisterDataSetObserver(dataSetObserver);
+        }
+    }
+}

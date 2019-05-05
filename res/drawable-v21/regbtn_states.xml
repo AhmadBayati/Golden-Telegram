@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#ff9c27b0">
+    <item android:drawable="@drawable/regbtn2" />
+</ripple>

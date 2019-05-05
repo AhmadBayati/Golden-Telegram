@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@id/background_image_intro" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:layout_gravity="11" android:background="@drawable/btnshadow" android:layout_width="498dp" android:layout_height="528dp">
+        <include layout="@layout/intro_layout" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#fff5f6fa" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:src="@drawable/ic_launcher_about" android:scaleType="1" android:contentDescription="@string/AppName" />
+            <com.hanista.mobogram.mobo.component.HanistaTextView android:textSize="18sp" android:textColor="#ff878787" android:gravity="11" android:layout_gravity="1" android:id="@id/about_version" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:shadowColor="#ffffffff" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.5" />
+            <LinearLayout android:orientation="1" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:layout_width="-2" android:layout_height="-2"
+                    <RelativeLayout android:id="@id/layout_comment" android:background="@drawable/about_list_item_background_selector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="50dp">
+                        <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="5" android:id="@id/tv_comment" android:layout_width="-1" android:layout_height="-2" android:text="@string/about_comment" android:drawableLeft="@drawable/ic_comment" android:drawablePadding="10dp" android:layout_centerVertical="true" style="@style/AboutItemTextStyle" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_products" android:background="@drawable/about_list_item_background_selector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="50dp" android:layout_below="@id/layout_comment">
+                        <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="5" android:id="@id/tv_products" android:layout_width="-1" android:layout_height="-2" android:text="@string/about_products" android:drawableLeft="@drawable/ic_products" android:drawablePadding="10dp" android:layout_centerVertical="true" style="@style/AboutItemTextStyle" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_channel" android:background="@drawable/about_list_item_background_selector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="50dp" android:layout_below="@id/layout_products">
+                        <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="5" android:id="@id/tv_channel" android:layout_width="-1" android:layout_height="-2" android:text="@string/about_channel" android:drawableLeft="@drawable/ic_channel" android:drawablePadding="10dp" android:layout_centerVertical="true" style="@style/AboutItemTextStyle" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_mail" android:background="@drawable/about_linearlayout_split_line" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="70dp" android:layout_marginTop="-2dp" android:layout_below="@id/layout_channel">
+                        <ImageView android:gravity="5" android:id="@id/iv_mail" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_mail" android:drawablePadding="10dp" android:layout_centerVertical="true" android:contentDescription="@string/about_title_contact_us" />
+                        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_toRightOf="@id/iv_mail">
+                            <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="55" android:layout_gravity="50" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-1" android:text="@string/about_title_contact_us" android:layout_weight="1.0" style="@style/AboutItemTextStyle" />
+                            <com.hanista.mobogram.mobo.component.HanistaTextView android:textSize="14sp" android:textColor="#ff999999" android:gravity="35" android:layout_gravity="30" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-1" android:text="@string/about_title_mail_us" android:layout_weight="1.0" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_powered_by" android:background="@drawable/about_linearlayout_split_line" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-2dp" android:layout_below="@id/layout_mail">
+                        <com.hanista.mobogram.mobo.component.HanistaTextView android:gravity="5" android:layout_gravity="30" android:id="@id/tv_powered_by" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp" android:text="@string/about_title_powered_by" android:layout_alignParentTop="true" style="@style/AboutItemTextStyle" />
+                        <ImageView android:gravity="35" android:layout_gravity="30" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="@drawable/about_hanista_logo" android:layout_below="@id/tv_powered_by" android:contentDescription="@string/about_title_powered_by" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+        <com.hanista.mobogram.mobo.component.HanistaTextView android:textSize="11sp" android:textColor="#ff999999" android:gravity="1" android:id="@id/about_rights_reserved" android:paddingLeft="5dp" android:paddingTop="4dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/about_content_rights_reserved" android:shadowColor="#ffffffff" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.5" />
+    </LinearLayout>
+</LinearLayout>

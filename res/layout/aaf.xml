@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.hanista.mobogram.mobo.voicechanger.widgets.AafPicker android:id="@id/viewAafPicker" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/LayoutMargin" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <View android:id="@id/viewIntervalPicker" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/LayoutMargin" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/LayoutMargin">
+        <CheckBox android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="11" android:id="@id/viewBluetoothHeadset" android:layout_width="-1" android:layout_height="-2" />
+        <CheckBox android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="11" android:id="@id/viewInternalMic" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <com.hanista.mobogram.mobo.voicechanger.widgets.ColoredToggleButton android:id="@id/viewStartStopButton" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/LayoutMargin" android:textOn="" android:textOff="" />
+</LinearLayout>

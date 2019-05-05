@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#eceff1">
+    <item>
+        <color android:color="#eceff1" />
+    </item>
+    <item android:id="0x102002e">
+        <shape android:shape="0">
+            <solid android:color="?unknown_attr_ref: 1010435" />
+        </shape>
+    </item>
+</ripple>

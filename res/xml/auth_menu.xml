@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/Settings" />
+    <PreferenceScreen android:title="Account Settings" android:key="account_settings" android:summary="">
+        <intent android:targetPackage="com.hanista.mobogram" android:action="com.hanista.mobogram.OPEN_ACCOUNT" android:targetClass="com.hanista.mobogram.ui.LaunchActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

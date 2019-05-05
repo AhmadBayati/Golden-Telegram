@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="80dp">
+    <ImageView android:gravity="5" android:layout_gravity="10" android:id="@id/bubble_in" android:padding="0dp" android:layout_width="70dp" android:layout_height="70dp" />
+    <ImageView android:gravity="3" android:layout_gravity="10" android:id="@id/bubble_out" android:padding="0dp" android:layout_width="70dp" android:layout_height="70dp" />
+    <TextView android:textSize="18sp" android:gravity="11" android:layout_gravity="11" android:id="@id/bubble_title" android:padding="2dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" />
+</LinearLayout>

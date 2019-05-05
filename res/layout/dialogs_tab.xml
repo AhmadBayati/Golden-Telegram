@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/tab_layout" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/btn_bot" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_bot" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_channel" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_channel" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_supergroup" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_supergroup" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_group" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_group" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_contact" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_contact" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_favorite" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_favorite" android:scaleType="5" android:layout_weight="1.0" />
+    <ImageView android:id="@id/btn_all" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_all" android:scaleType="5" android:layout_weight="1.2" />
+    <ImageView android:id="@id/btn_unread" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-1" android:src="@drawable/ic_tab_unread" android:scaleType="5" android:layout_weight="1.2" />
+</LinearLayout>

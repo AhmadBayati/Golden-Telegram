@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lock_root_view" android:layout_width="-2" android:layout_height="-2"
+    <RelativeLayout android:id="@id/lock_container" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/lock_iv_background" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:layout_centerInParent="true" android:contentDescription="@videoplayer/TRACK_DEFAULT" />
+        <RelativeLayout android:gravity="11" android:id="@id/lock_ad_container" android:layout_width="-1" android:layout_height="-2" android:minHeight="50dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_above="@id/lock_ad_container">
+            <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="2.0">
+                <LinearLayout android:layout_gravity="11" android:orientation="1" android:background="@drawable/locker_overlay" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2"
+                    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                        <ImageView android:id="@id/lock_iv_app_icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="8dp" android:contentDescription="@videoplayer/TRACK_DEFAULT" />
+                        <com.hanista.mobogram.mobo.component.HanistaTextView android:textSize="24sp" android:textColor="#ffffff" android:id="@id/lock_tv_title" android:layout_width="-2" android:layout_height="-2" />
+                    </LinearLayout>
+                    <com.hanista.mobogram.mobo.component.HanistaTextView android:textSize="20sp" android:textColor="#ffffff" android:gravity="5" android:id="@id/lock_tv_footer" android:layout_width="-1" android:layout_height="-2" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/lock_lockview" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="5.0">
+                <TextView android:enabled="false" android:textSize="30dp" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/lock_tv_password" android:background="0x106000d" android:focusable="false" android:focusableInTouchMode="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:inputType="81" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@id/lock_footer_buttons" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+                <com.hanista.mobogram.mobo.component.HanistaButton android:textSize="22sp" android:id="@id/lock_footer_b_left" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="3dp" android:text="@string/cancel" android:layout_weight="1.0" style="@style/Theme_Lock_Button" />
+                <com.hanista.mobogram.mobo.component.HanistaButton android:textSize="22sp" android:id="@id/lock_footer_b_right" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="3dp" android:text="@string/button_continue" android:layout_weight="1.0" style="@style/Theme_Lock_Button" />
+            </LinearLayout>
+        </LinearLayout>
+        <SurfaceView android:id="@id/lock_sufaceview" android:layout_width="1dp" android:layout_height="1dp" />
+    </RelativeLayout>
+</RelativeLayout>

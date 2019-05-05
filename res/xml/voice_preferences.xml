@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory voicesmith:title="@string/VolumePreferences">
+        <CheckBoxPreference voicesmith:title="@string/ForceVolumeLevelPreference" voicesmith:key="ForceVolumeLevel" voicesmith:defaultValue="true" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/WireVolumeLevelPreference" voicesmith:key="WireVolumeLevel" voicesmith:dependency="ForceVolumeLevel" voicesmith:defaultValue="30" voicesmith:maxValue="100" voicesmith:minValue="0" voicesmith:valueFormat="%s%%" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/BluetoothVolumeLevelPreference" voicesmith:key="BluetoothVolumeLevel" voicesmith:dependency="ForceVolumeLevel" voicesmith:defaultValue="100" voicesmith:maxValue="100" voicesmith:minValue="0" voicesmith:valueFormat="%s%%" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/SignalAmplificationPreference" voicesmith:key="SignalAmplification" voicesmith:defaultValue="6" voicesmith:maxValue="12" voicesmith:minValue="0" voicesmith:valueFormat="%s dB" />
+    </PreferenceCategory>
+    <PreferenceCategory voicesmith:title="@string/SoundPreferences">
+        <com.hanista.mobogram.mobo.voicechanger.widgets.ListPreference voicesmith:entries="@array/SampleRateEntries" voicesmith:title="@string/SampleRatePreference" voicesmith:key="SampleRate" voicesmith:defaultValue="44100" voicesmith:entryValues="@array/SampleRateValues" />
+        <CheckBoxPreference voicesmith:title="@string/CorrectOffsetPreference" voicesmith:key="CorrectOffset" voicesmith:defaultValue="true" />
+        <CheckBoxPreference voicesmith:title="@string/SpectralNoiseGatePreference" voicesmith:key="SpectralNoiseGate" voicesmith:defaultValue="true" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/NoiseGateCoeffExponentPreference" voicesmith:key="NoiseGateCoeffExponent" voicesmith:dependency="SpectralNoiseGate" voicesmith:defaultValue="3" voicesmith:maxValue="5" voicesmith:minValue="1" voicesmith:valueFormat="1e-%s" />
+        <CheckBoxPreference voicesmith:title="@string/BandpassFilterPreference" voicesmith:key="BandpassFilter" voicesmith:defaultValue="false" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/BandpassLowerFreqPreference" voicesmith:key="BandpassLowerFreq" voicesmith:dependency="BandpassFilter" voicesmith:defaultValue="100" voicesmith:maxValue="100" voicesmith:minValue="0" voicesmith:incValue="10" voicesmith:valueFormat="%s Hz" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/BandpassUpperFreqPreference" voicesmith:key="BandpassUpperFreq" voicesmith:dependency="BandpassFilter" voicesmith:defaultValue="8000" voicesmith:maxValue="8000" voicesmith:minValue="1000" voicesmith:incValue="1000" voicesmith:valueFormat="%s Hz" />
+    </PreferenceCategory>
+    <PreferenceCategory voicesmith:title="@string/AutoMutePreferences">
+        <CheckBoxPreference voicesmith:title="@string/AutoMuteStatePreference" voicesmith:key="AutoMute" voicesmith:defaultValue="false" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/AutoMuteHighThresholdPreference" voicesmith:key="AutoMuteHighThreshold" voicesmith:dependency="AutoMute" voicesmith:defaultValue="-20" voicesmith:maxValue="0" voicesmith:minValue="-50" voicesmith:valueFormat="%s dBFS" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/AutoMuteLowThresholdPreference" voicesmith:key="AutoMuteLowThreshold" voicesmith:dependency="AutoMute" voicesmith:defaultValue="-25" voicesmith:maxValue="0" voicesmith:minValue="-50" voicesmith:valueFormat="%s dBFS" />
+        <com.hanista.mobogram.mobo.voicechanger.widgets.SeekBarPreference voicesmith:title="@string/AutoMuteHangoverPreference" voicesmith:key="AutoMuteHangover" voicesmith:dependency="AutoMute" voicesmith:defaultValue="5" voicesmith:maxValue="10" voicesmith:minValue="0" voicesmith:valueFormat="%s s" />
+    </PreferenceCategory>
+    <PreferenceCategory voicesmith:title="@string/MiscPreferences">
+        <CheckBoxPreference voicesmith:title="@string/LoggingPreference" voicesmith:key="Logging" voicesmith:defaultValue="false" />
+        <Preference voicesmith:title="@string/ResetPreferences" voicesmith:key="Reset" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout markers:id="@id/root" markers:background="@drawable/transparent" markers:layout_width="-1" markers:layout_height="-1">
+    <include markers:id="@id/actionbar" markers:layout_width="-1" markers:layout_height="@dimen/action_bar_height" layout="@layout/actionbar" />
+    <include markers:layout_gravity="50" markers:id="@id/colors" markers:layout_width="-1" markers:layout_height="96dp" layout="@layout/colors_horizontal" />
+    <include markers:layout_gravity="3" markers:id="@id/tools" markers:layout_width="52dp" markers:layout_height="-1" markers:layout_marginTop="@dimen/action_bar_height" markers:layout_marginBottom="96dp" layout="@layout/tools" />
+    <com.hanista.mobogram.mobo.markers.LogoView markers:layout_gravity="33" markers:id="@id/logo" markers:padding="2dp" markers:layout_width="@dimen/action_bar_logo_width" markers:layout_height="@dimen/action_bar_height" markers:src="@drawable/markers" markers:onClick="clickLogo" markers:alpha="0.5" />
+</FrameLayout>
